@@ -1,5 +1,4 @@
 
-
 print("Which operation do you want:")
 print('''
 + -- Addition
@@ -64,6 +63,3 @@ elif op == '-':
     print("Your answer is",a-b)
 else:
     print("Invelid oparation")
-
-
-

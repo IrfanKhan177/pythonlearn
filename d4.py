@@ -4,20 +4,20 @@ print(type(d1)) #type is dict
 d2 = {"irfan":"burger","kalim":"rice","rahin":"fish","marin":{"B":"roti","L":"rice"}}
 
 
-# print(d2) #out: {'irfan': 'burger', 'kalim': 'rice', 'rahin': 'fish'}
-# print(d2["irfan"])
-# print(d2["kalim"])
-# print(d2["rahin"])
-# print(d2["marin"]["L"])
-# print(d2.get("irfan")) #it will return the item of irfan
+print(d2) #out: {'irfan': 'burger', 'kalim': 'rice', 'rahin': 'fish'}
+print(d2["irfan"])
+print(d2["kalim"])
+print(d2["rahin"])
+print(d2["marin"]["L"])
+print(d2.get("irfan")) #it will return the item of irfan
 d2.update({"limon":"coffee"}) #it will add in the dict
 print(d2.keys()) #it will return all keys of the dict
 print(d2.items()) #it will return all items of the dict
-# print(d2)
+print(d2)
 
-# d2["karin"]= "hhh" #karin will append in this dict
-# del d2["kalim"] # kalim will be delete from this dict
-# print(d2)
+d2["karin"]= "Burger" #karin will append in this dict
+del d2["kalim"] # kalim will be delete from this dict
+print(d2)
 # d3= d2 # d2 dict will transfer in d3
 # d3["hh"]="hh" #it will also  change the d2 dict
 # print(d2)
